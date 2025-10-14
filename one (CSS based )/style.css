@@ -1,0 +1,100 @@
+*{
+    list-style: none;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+.container{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+}
+h2{
+    font-size: 2rem;
+    margin-bottom: 13px;
+}
+.profile-header p{
+    font-size: 1rem;
+    color: rgb(250, 250, 250);
+    margin-bottom: 20px;
+}
+.profile-header{
+    background-color:rgb(2, 3, 30) ;
+    padding: 30px; 
+    color: white;
+    margin-bottom: 20px;
+}
+
+.about-me{
+    padding: 40px;
+    margin: 20px;
+    width:80vh;
+    margin: auto;
+    text-align: justify;
+    line-height: 1.6;
+    background-color: rgb(63, 83, 100);
+}
+.Education{
+    background-color: rgb(131, 214, 59);
+  padding: 30px;
+    width:80vh;
+    margin: auto;
+    text-align: justify;
+    line-height: 1.6;
+    
+}
+.Education li{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin: 10px;
+    padding: 10px;
+}
+.skills{
+    background-color: rgb(255, 94, 94);
+    padding: 30px;
+    width:80vh;
+    margin: auto;
+    text-align: justify;
+    line-height: 1.6;
+    
+}
+.skills li{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin: 10px;
+    padding: 10px;
+}
+.projects{
+    background-color: rgb(59, 59, 214);
+  padding: 30px;
+    width:80vh;
+    margin: auto;
+    text-align: justify;
+    line-height: 1.6;
+    
+    
+}
+.projects li{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin: 10px;
+    padding: 10px;
+   text-decoration: none;
+
+}
+.contact{
+    background-color: rgb(204, 208, 206);
+  padding: 30px;
+    width:80vh;
+    margin: auto;
+    text-align: justify;
+    line-height: 1.6;
+    
+}
+.footer{
+    background-color: rgb(2, 3, 30);
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
