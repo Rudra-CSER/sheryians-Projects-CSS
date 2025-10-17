@@ -1,0 +1,90 @@
+@import url();
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    
+}
+#main{
+    width: 100%;
+   height: 100%; 
+   background-color: #E2E2E2;
+}
+.nav-bar a{
+  
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: 16px;
+    padding: 15px;
+    
+}
+
+#main>h1{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 430;
+} 
+/*greater than symbol mean main ka direct underlying child  */
+
+.btmLeft{
+    position: absolute;
+    left:5%;
+    bottom: 20%;
+    width: 300px;
+}
+.btmLeft h3{
+    font-size: 25px;
+}
+.btmLeft h4{
+ margin-top: 30px;
+ font-size: 25px;
+}
+.Bottombar{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 70px;
+    padding: 30px 70px;
+    
+    width: 100%;
+    height: 10px;
+    color: rgb(0, 0, 0);
+    /* background-color: rgb(255, 0, 0); */
+}
+.Bottombar>a{
+    font-size: 32px;
+    text-decoration: none;
+    color: black;
+}
+#main > img{
+    position:absolute;
+    height: 350px;
+    /* right: 10%; */
+ 
+}
+#main #st{
+    top: 37%;
+    right: 22%;
+    height: 350px;
+}
+#main #second{
+     height: 300px;
+    top: 60%;
+    left: 54%;
+   
+}  
+#main #rd{
+    top: 49%;
+    right: 45%;
+    height: 250px;
+}
