@@ -1,0 +1,89 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'helvetica neue';
+background-color: skyblue;
+}
+html,
+body{
+height: 100%;
+width:100%;
+}
+
+/* Nav bar */
+ .navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+        padding: 30px 80px;
+        background-color: whitesmoke;
+        position: relative;
+    }
+.navbar h2{
+    font-weight: 400;
+    cursor: pointer;
+    background: none;
+    position: absolute;
+    left: 50px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    background: none;
+    cursor: pointer;
+    gap: 20px;
+    
+   
+}
+.nav-links{
+    display: flex;
+    gap: 20px;
+    background: none;
+    position: absolute;
+    right:45px;
+}
+
+
+/* contents */
+.container{
+    display: flex;
+    justify-content: center;
+   
+    height: 100vh;
+}
+.box{
+   width: 200px;
+   height: 200px;
+   background-color: white;
+   /* border-radius: 10px; */
+   box-shadow: 4px 4px 18px rgba(0, 0, 0, 0.2);
+   margin: 10px;
+   position: relative;
+    overflow: hidden;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bottom{
+     transition: all ease 1s;
+    width: 100%;
+    height: 40%;
+    background-color: black;
+    position: absolute;
+    bottom: -40%;
+    background: linear-gradient( transparent ,rgb(0, 0, 0));
+}
+div.bottom h2{
+    color: white;
+    padding: 10px;
+    background: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box:hover .bottom{
+    bottom: 0;
+}
