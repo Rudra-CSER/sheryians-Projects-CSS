@@ -209,6 +209,47 @@ section.view4 {
 
   }
 }
+section.view5{
+      width: 100%;
+      @include flex-column(2rem);
+      padding: 1rem;
+      .card{
+        width: 100%;
+        background-image:url(./person1.webp) ;
+        background-size: cover;
+        
+        border-radius: 0.7rem ;
+        aspect-ratio: 1/1;
+
+        @include flex-column(0rem);
+        justify-content: space-between;
+        padding: 1rem;
+        
+        .icon,.bottom{
+          background-color: #1d1d1d46;
+          backdrop-filter: blur(1rem);
+          border: 1px solid rgb(255, 255, 255);
+          border-radius: 0.5rem;
+          padding: 0.5rem;
+        }
+        .icon{width: fit-content;
+        border-radius: 55%;
+      padding: 0.4rem;}
+        .top{
+          display: flex;
+          gap: 1rem;
+          justify-content: flex-end;
+          font-size: 1.5rem;
+        }
+       .bottom{
+        display: flex;
+        justify-content: space-between;
+          padding: 2rem 1rem;
+      p{
+        text-transform: uppercase;
+      }
+        }
+    }}
 
 @media screen and (min-width:1419px) {
   main {
@@ -322,6 +363,12 @@ padding: 1rem 4rem;
         }
 
       }
+    }
+    section.view5{
+      flex-direction: row;
+      padding: 1rem 4rem;
+      .card{width: 33% ;
+      aspect-ratio: 1/1;}
     }
   }
 }
