@@ -1,0 +1,24 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'helvetica neue';
+color: wheat;
+}
+html,
+body{
+height: 100%;
+width:100%;
+}
+
+#box{
+height: 100px;
+width: 100px;
+background: #000;
+}
+#cicle{
+height: 100px;
+width: 100px;
+background: #c44949;
+border-radius: 50%;
+}
